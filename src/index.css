@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto','Segoe UI',  'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-bg {
+  background-color: #2C3842;
+}
+
+.text-color {
+  color: white;
+}
+
+.border-color {
+  border-color: #25493F;
+}
+
+.custom-bg-text {
+  color: #FDF1E7;
+}
+
+.custom-bg-text:hover {
+  color: black;
+  background-color: white;
+}
+
+
+.bg-color {
+  background-color: #25493F;
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  height: fit-content;
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card {
+  transform: scale(1.02);
+}
+
+.cimg {
+  max-height: 50vh;
+}
+
+.grad {
+  background: linear-gradient(180deg, black, #25493F);
+  min-height: 91vh;
+}
+
+.webname {
+  padding: 20px;
+  color: white;
+}
